@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laywer-calc.iml" filepath="$PROJECT_DIR$/.idea/modules/laywer-calc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laywer-calc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/laywer-calc_main.iml" group="laywer-calc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laywer-calc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/laywer-calc_test.iml" group="laywer-calc" />
+    </modules>
+  </component>
+</project>
