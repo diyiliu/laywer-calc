@@ -22,6 +22,11 @@ jar {
                 'Main-Class': 'com.diyiliu.Main'
         )
     }
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
 }
 
 
