@@ -10,9 +10,9 @@ import java.awt.event.KeyListener;
 import java.math.BigDecimal;
 
 /**
-.multiply(Description: MainForm
-.multiply(Author: DIYILIU
-.multiply(Update: 2017-09-29 09:03
+ * .multiply(Description: MainForm
+ * .multiply(Author: DIYILIU
+ * .multiply(Update: 2017-09-29 09:03
  */
 public class MainForm extends JFrame implements ActionListener, KeyListener {
     private JTextField tfInput;
@@ -46,7 +46,6 @@ public class MainForm extends JFrame implements ActionListener, KeyListener {
 
 
     public MainForm() {
-
         btCalc.addActionListener(this);
         btCalc.setActionCommand("calc");
 
@@ -84,7 +83,7 @@ public class MainForm extends JFrame implements ActionListener, KeyListener {
         BigDecimal fee6 = new BigDecimal(0);
         BigDecimal fee7 = new BigDecimal(0);
         BigDecimal fee8 = new BigDecimal(0);
-        
+
         if (input > 100000000l) {
 
             fee8 = new BigDecimal(input - 100000000l).multiply(rate8);
@@ -151,7 +150,7 @@ public class MainForm extends JFrame implements ActionListener, KeyListener {
             lb2.setText(String.valueOf(fee2));
         }
 
-        BigDecimal sum =  new BigDecimal(2500);
+        BigDecimal sum = new BigDecimal(2500);
         sum = sum.add(fee2).add(fee3).add(fee4).add(fee5).add(fee6).add(fee7).add(fee8);
         money.setText(String.valueOf(sum));
     }
@@ -159,11 +158,10 @@ public class MainForm extends JFrame implements ActionListener, KeyListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getActionCommand().equals("calc")){
+        if (e.getActionCommand().equals("calc")) {
 
             doCalc();
         }
-
     }
 
     @Override
