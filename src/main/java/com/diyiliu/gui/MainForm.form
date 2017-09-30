@@ -295,6 +295,7 @@
           </grid>
         </constraints>
         <properties>
+          <foreground color="-4517809"/>
           <text value="0"/>
         </properties>
       </component>
